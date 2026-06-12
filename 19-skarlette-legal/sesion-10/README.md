@@ -1,5 +1,5 @@
-# sesión 06 - 14/04
-# sesión 06 - 5 de junio
+
+# sesión 10 - 5 de junio
 # Estados y camra web
 
 ### como crear estados 
