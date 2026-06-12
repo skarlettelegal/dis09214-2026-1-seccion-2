@@ -19,6 +19,7 @@
   Hacer la bandera chilena en p5
 
   https://editor.p5js.org/Skarlettelegal/sketches/SIqUL
+https://editor.p5js.org/Skarlettelegal/sketches/SIqULjkiS
 
   # SUBIR IMAGENES
 + Paso 1, subir la imagen a p5
