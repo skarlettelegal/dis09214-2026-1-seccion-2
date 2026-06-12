@@ -28,3 +28,12 @@ https://editor.p5js.org/Skarlettelegal/sketches/SIqULjkiS
   ***fuction preload()**
   creamos una variable de la imagen **let miImagen**
 +Paso 3 Dibujar y dimensionar en el draw
+https://editor.p5js.org/Skarlettelegal/sketches/XPDiMU48U
+
+# Modificar pixeles
+
++ get (x,y) -  "el ojo"
++ set(x,y,nuevoColor) - "el pincel"
++ updatePixeles() - "Actualización"
+
+  
