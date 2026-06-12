@@ -1,90 +1,40 @@
+# sesión 06 - 15/05 - CLASE FOR 
 
-# sección 06 - 17/ 04 - Transformaciones y condicionales
+## LOOP o bucle
 
-## Angulos | angleMode()
-angleMode(DEGREES) funcion para hacer los angulos en grados  
+° **Los loops** son un proceso que se repite continuamente, y en informatica es una serie de instrucciones que se repite indefinidamente mientras no se cumpla una condicion previamente establecida.  
 
-angleMode(RADIANS) funcion determianda en p5
+° Es una estrucutura de control que permite ejecutar un bloque de instrucciones de manera repetida mientras se cumpla una condicion especifica o hasta que se alcance un estado determinado.  
 
-radianes, unidad de medida, es el arco formado con la circuferencia igual a su radio. de 0° a 180° son pi radianes.
+## While 
 
+  *  los bucles white son utiles para repetir instrucciones mientras una condicion sea verdadera. son como sentencias if que se repite.
 
+´´javascrip 
+(condicion booleana){si es true este codigo se ejecuta en bucle}´´´  
 
-## Rotacion | rotate(); 
-Movimiento en p5 para hacer rotaciones de figuras
-con setup de ANGLEEMODE(DEGREES)
-rotate(valor radianes o en grados);  
+## FOR - 4 elementos
 
+* es una forma de repetir bloque de codigo cuando se conoce el numero de iteracciones. los bucles *for* son utiles para repetir funciones
 
-## Trasladar |translate();
-Sirve para trasladar el punto de origen
-translate(x,y);
+´´´javascrip
+for(inicializacion de la variable; condicion booleana; actualizacion){lo que queremos que pase cuando la condicion sea verdadera}
 
+for (let x= 0 ; x<=width ; x=x+1)
+{ellipse (x,200,random(300)}
 
-## rectMode (CENTER) + angleemode (DEGREES)  
-hcer el movimiento rotativo en el eje
+## Nested loops
 
-## rotate + move  (con variable X)
+* Son loops dentro de otro loops
+* Es decir un *for* dentro de otro *for*
+´´´´Javascrip
 
-Funcion para que giren y se desplazen al mismo tiempo 
+## REFERENTES
 
-## Guardar y restaurar
-push(); y pop(); funciones que se usan juntas para transformar como una memoria temporal
+**https://mateoarce.cl/**
 
-si quiero que un objeto gire en direccion contraria debo poner - para hacer los valores en negativo
+##frameCount
 
-## Escala | scale();  
-se escala el sistema de cordenadas por un factor especificado. (hace un zoom)  
-scale(x,y);
+variable numerico que regustra la catidad de fotogragramas, se incrementa 1 cada vez  en fuction draw, y 0 en setup.
 
-el punto de inicio (0,0) esta trasladada en punto eje, usando + y -   
-
-se puede combinar con mouseX y mouseY  
-
-# Condiconales
-
-**Logica Condicional**
-
-**expresion Booeleana**
- es un anunciado que arroja uno de los dos valores posibles, verdadero(true) o falso(false)  
-
- para construir la exoresion booleana, necesitamos 3 tipos de elementos
-
- ## **OPERADORES**  
- 
-**operandos o valores**
-
-
- **de comparacion**, permite contrastar dos valores
- = = (igual a)
- != (diferente de)
- > o < (mayor o menor que)
->= 0 <= (mayor o igual/ menor o igual)
-
-# Sentencias Condicionales
-**If**
-if (condición) {
-  // se ejecuta si es true
-}
-
-**if (condición)** {
-  // caso verdadero
-} else if (condición2) {
-  // segunda condición
-} else {
-  // caso por defecto
-}
-
---- 
-
-# ENCARGO 4
-
-- Varias figuras geométricas
-- Rotación
-- Translate
-- Push Pop
-- Scale
-- Texto https://p5js.org/es/search/?term=text
-- Imagen https://p5js.org/es/search/?term=image https://editor.p5js.org/PoliMujica/sketches/nm0fj2seC
-- 2 sentencias condicionales completas (If - else if - else)
-
+* sirve para ciertas animaciones o estados, 
