@@ -17,3 +17,13 @@
 
   ## Desafio
   Hacer la bandera chilena en p5
+
+  https://editor.p5js.org/Skarlettelegal/sketches/SIqUL
+
+  # SUBIR IMAGENES
++ Paso 1, subir la imagen a p5
+    agregar archicos, poner nombres, hacer carpetas para que sea mas ordenado
++ Paso 2, Declarar y precargar la imagen
+  ***fuction preload()**
+  creamos una variable de la imagen **let miImagen**
++Paso 3 Dibujar y dimensionar en el draw
