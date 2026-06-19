@@ -17,6 +17,14 @@
 **METODOS DE CONSULTA O ESTADOS DEL SONIDO** 
 + nombreVvariable.isPlaying(): devuelve true si esta activo el sonido y flase si no
 + nombreVvariable.isPaused(): devuelve true si el sonido fue congelado con pause()
-+ nombreVvariable.isLoo
++ nombreVvariable.isLooping(): devuelve true si el sonido se configura para repetir
++ nombreVariable.currentTime(): devuelve al segundo exacto en el que esta la reproduccion.
++ nombreVariable.duration() : Devuelve la duración total del archivo de audio en segundos (ej: 180.0).
++ nombreVariable.getVolume() : Devuelve el nivel de volumen actual del reproductor (un número entre 0.0
+y 1.0).
++ nombreVariable.getRate() : Devuelve la velocidad de reproducción actual (ej: 1.0 para normal, 2.0 para el
+doble).
 
 ## DESAFIÍO CLASE 
+
+https://editor.p5js.org/Skarlettelegal/sketches/DejQpqi1W 
