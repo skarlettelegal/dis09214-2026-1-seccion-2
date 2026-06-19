@@ -39,6 +39,7 @@ https://editor.p5js.org/Skarlettelegal/sketches/DejQpqi1W
  
 + **La Frecuencia (Frequence):** Controla qué tan rápido vibra la onda. Matemáticamente, a mayor
 frecuencia, el sonido es más agudo; a menor frecuencia, es más grave. Se mide en Hertz (Hz).
-**La Amplitud (Amplitude):** Controla la altura de la onda, lo que nosotros percibimos como el
++ **La Amplitud (Amplitude):** Controla la altura de la onda, lo que nosotros percibimos como el
 volumen. Va de 0.0 (silencio) a 1.0 (máximo).
 
++ referentes en la ppt
